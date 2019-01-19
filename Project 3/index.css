@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 2%;
+  font-family: monospace
+}
+
+h1 {
+  text-align: center;
+  /* font-size: 2.5em; */
+  font-weight: bold
+}
+
+#main-form {
+  text-align: center;
+  padding: 2.5%;
+  width: 100%;
+}
+form {
+  width: 100%;
+}
+input, button {
+  width: 70%;
+  height: 3em;
+}
+button {
+  width: 25%;
+  height: 2em;
+  font-size: 1.2em;
+  font-weight: bolder;
+}

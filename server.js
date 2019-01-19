@@ -19,7 +19,7 @@ app.get("/", function (req, res) {
 });
 const parseDateString = dateString => {
   let date;
-  if (+dateString) {
+  if (+dateString) {
     date = new Date(+dateString);
   } else if (dateString === undefined) {
     date = new Date();
